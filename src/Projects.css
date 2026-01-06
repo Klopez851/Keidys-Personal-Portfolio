@@ -1,0 +1,51 @@
+.projects-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items:flex-start ;
+    align-content: flex-start;
+    gap:2rem;
+
+}
+
+.projectP{
+    font-family: var(--primary-font);
+    width: 90vw;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.projectA{
+    color: var(--color-accent-1);
+    text-decoration: none;
+}
+
+.projectH1{
+    font-family: var(--primary-font);
+    margin:0;
+    background-color: var(--shadow);
+    text-align: center;
+    width: 100vw;
+}
+
+@media (min-width: 1024px) {
+.projects-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items:flex-start ;
+    align-content: flex-start;
+
+}
+
+.projectP{
+    font-family: var(--primary-font);
+    font-size: large;
+    width: 90vw;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+    
+}

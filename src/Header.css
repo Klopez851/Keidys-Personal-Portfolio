@@ -20,6 +20,7 @@
     display: flex;
     justify-content: flex-end;
     padding: 1rem;
+    border-radius: 0 0 0 5px;
     
 }
 
@@ -36,7 +37,7 @@
     display: none;
 }
 
-a {
+.HeaderA {
     text-decoration: none;
     color: white;
     padding: 1rem;
@@ -69,15 +70,16 @@ a {
         margin: .5rem;
         flex-direction:row;
         justify-content:space-evenly;
+        font-size: large;
     }
 
-    a {
+    .HeaderA{
         text-decoration: none;
         color: white;
         padding: .5rem;
     }
 
-    a:hover{
+    .HeaderA:hover{
         transform: translateY(-3px);
     }
 

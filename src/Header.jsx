@@ -22,19 +22,19 @@ function Header (){
                 onClick={() => setOpenMenu(prev => !prev)}
                 className='hamburger-menu'>
 
-                <FaBars size='1.2rem' color='white'/>
+                <FaBars size='1.5rem' color='white'/>
 
             </button>
 
             <nav className= {openMenu ? 'nav-mobile-open' : 'nav-mobile-close'}>
                 {navOptions.map(menuItem =>
-                    <a  key={menuItem.name}href={menuItem.link}>{menuItem.name}</a>
+                    <a className='HeaderA' key={menuItem.name}href={menuItem.link}>{menuItem.name}</a>
                  )}
             </nav>
 
             <nav id='ipadAndUpNav'>
                 {navOptions.map(menuItem =>
-                    <a key={menuItem.name}href={menuItem.link}>{menuItem.name}</a>
+                    <a className='HeaderA' key={menuItem.name}href={menuItem.link}>{menuItem.name}</a>
                  )} 
             </nav>
         </header>

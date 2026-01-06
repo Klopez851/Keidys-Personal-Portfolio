@@ -10,6 +10,7 @@
 }
 :root{/*Highest level, where global variables live*/
   --color-background: #262c40;
+  --color-background-lighter:#2F354C;
   --color-primary: #4E4092;
 
   --shadow: #171b26;
@@ -46,3 +47,6 @@ body, html{
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 } 
+
+
+/*add span css globally*/
