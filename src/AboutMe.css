@@ -1,0 +1,29 @@
+.aboutMeH1{
+    font-family: var(--primary-font);
+    background-color: var(--shadow);
+    text-align: center;
+}
+
+.aboutMePContainer{
+    font-family: var(--secondary-font);
+    font-size: large;
+    text-align: center;
+    width:90vw ;
+    margin: auto;
+    /*top,right,bottom,left*/
+    
+}
+
+@media (min-width:1024px) {
+    .aboutMePContainer{
+        position: relative;
+    
+        font-family: var(--secondary-font);
+        font-size: larger;
+        text-align: center;
+        width: 70vw;
+        /*top,right,bottom,left*/ 
+        margin: auto;
+    }
+    
+}

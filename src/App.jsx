@@ -17,7 +17,7 @@ function App() {
       <Intro/>
       <Projects/>
       <Skills/>
-      <h1>Certifications</h1>
+      {/* <h1>Certifications</h1> */}
       <AboutMe/>
       <FurtureWork/>
       <ContactMe/>
