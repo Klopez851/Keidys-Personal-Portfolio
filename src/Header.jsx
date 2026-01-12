@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './Header.css'
 import { FaBars } from "react-icons/fa";
+import resume from './assets/resume.pdf';
 
 function Header (){
     //{link:'',name:''},
@@ -12,7 +13,6 @@ function Header (){
         {link:'#AboutMe',name:'About Me'},
         {link:'#FutureWork',name:'Future Work'},
         {link:'#ContactMe',name:'Contact Me'},
-        {link:'#Resume',name:'Resume'},
     ]
     const [openMenu, setOpenMenu] = useState(false);
     //"create a boolVar (openMenu) starting as false (useState(false)), and give me a function (setOpenMenu) to set the value of said var"

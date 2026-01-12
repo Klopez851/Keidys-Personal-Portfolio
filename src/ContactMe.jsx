@@ -25,16 +25,9 @@ function ContactMe(){
             </div>
 
             <fieldset className={showForm ? 'contactMeFieldset':'hidden'}>
-                <form action="" className='contactMeForm'>
-                    <label htmlFor=""> From:</label>
-                    <input className='contactMeFormInput' type="email" name="" id="" />
-                    <br />
-                    <label htmlFor="">To:</label>
-                    <input className='contactMeFormInput' type="email" name="" id="" value='keidy.y.lopez@gmail.com'/>
-                    <br />
-                    <label htmlFor="">Message:</label>
-                    <textarea className='contactMeFormInput' name="" id="" cols="30" rows="10"></textarea>
-                    <button className='contactMeFormBtn'>Submit</button>    
+                <form action="mailto:keidy.y.lopez@gmail.com" method='get' className='contactMeForm'>
+                    <input type="submit" value="Send Email" className='contactMeFormBtn'></input>
+                    {/* <button className='contactMeFormBtn'>Submit</button>     */}
                     {/*figure our how to autogrow text area*/}            
                 </form>
             </fieldset>
