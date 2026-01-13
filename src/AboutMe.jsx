@@ -1,6 +1,5 @@
 import './AboutMe.css'
 
-
 function AboutMe(){
     return(
         <section id='AboutMe'>

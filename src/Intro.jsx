@@ -4,17 +4,19 @@ import './Intro.css'
 function Intro(){
     return(
         <section className='intro-container' id='Intro'>
+
             <div className='introImgContainer'>
                 <img className='introImg' src={profilePic} alt="Keidy Lopez" />
             </div>
+
             <p className='introP'>Hello! My name is Keidy and I’m a Massachusetts-based <span className='introSpan'>backend engineer</span> by trade,
              with hands-on experience across the <span className='introSpan'>full stack</span> through personal 
              projects. My primary interest lies in backend development, where 
              I enjoy designing and making <span className='introSpan'>APIs</span>, working with <span className='introSpan'>relational databases</span>, 
              and strengthening <span className='introSpan'>application security</span> using <span className='introSpan'>Java</span>, <span className='introSpan'>Spring Boot</span>, and 
              <span className='introSpan'>SQL</span> as my core tech stack.</p> 
-        </section>
 
+        </section>
     );
 };
 

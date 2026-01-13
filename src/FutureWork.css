@@ -1,19 +1,21 @@
-.futureWorkH1{
-    text-align: center;
+.futureWorkH1 {
     background-color: var(--shadow);
+
     font-family: var(--primary-font);
+    text-align: center;
 }
 
-.futureWorkP{
+.futureWorkP {
     font-family: var(--primary-font);
     text-align: center;
     font-size: large;
+
     margin: auto;
     width: 90vw;
     margin-bottom: 1rem;
 }
 
-.projectContainer{
+.projectContainer {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;

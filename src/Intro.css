@@ -1,26 +1,30 @@
-.intro-container{
-    font-family:var(--secondary-font);
-    padding: 3rem 2rem 1rem 2rem;
-    /*top,right,bottom,left*/
+.intro-container {
+    font-family: var(--secondary-font);
+
     display: flex;
     flex-direction: column;
     justify-content: center;
 
+    padding: 3rem 2rem 1rem 2rem;
+    /*top,right,bottom,left*/
 }
-.introImgContainer{
+
+.introImgContainer {
     display: flex;
     flex-direction: row;
     justify-content: center;
+
     margin-top: 1rem;
 }
 
-.introP{
+.introP {
     font-size: large;
-    top:2rem;
     text-align: center;
+
+    top: 2rem;
 }
 
-.introSpan{
+.introSpan {
     font-weight: 600;
     font-style: italic;
     color: var(--color-accent-1);
@@ -28,55 +32,58 @@
 
 
 @media (min-width: 768px) {
-    .intro-container{
-        font-family:var(--secondary-font);
+    .intro-container {
+        font-family: var(--secondary-font);
+
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        gap: 1.5rem;
         align-items: center;
         align-content: center;
+        gap: 1.5rem;
+
         padding-top: 1rem;
         margin-bottom: .3rem;
     }
 
-    .introImgContainer{
+    .introImgContainer {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
     }
 
-    .introP{
+    .introP {
         font-size: large;
         text-align: left;
     }
 }
 
 @media (min-width: 1024px) {
-    .intro-container{
-        font-family:var(--secondary-font);
+    .intro-container {
+        font-family: var(--secondary-font);
+
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        gap:5rem;
+        gap: 5rem;
     }
-    
-    .introImgContainer{
+
+    .introImgContainer {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
     }
 
-    .introImg{
+    .introImg {
         min-height: 350px;
         top: 2.5rem;
         left: 3vw;
     }
 
-    .introP{
+    .introP {
         font-size: x-large;
         width: 50vw;
     }

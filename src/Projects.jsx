@@ -3,6 +3,7 @@ import './Projects.css';
 
 function Projects(){
     // {imageUrl:,imageAlt:,projectTitle:,projectLink:,description:,techs[]},
+    //Project array, update as more projects are made
     const projects =[
         {
             imageUrl:'/notesAPIProject.jpg',
@@ -35,17 +36,21 @@ function Projects(){
             techs: ['HTML', 'CSS', 'JavaScript', 'Express.js', 'Node.js', 'SQL']
         },
     ]
+    
     return(
         <section className="projects-container" id="Projects">
+
             <h1 className="projectH1">Projects</h1>
 
-            <p className="projectP">Here are some projects I’ve worked on recently! 
+            <p className="projectP">
+                Here are some projects I’ve worked on recently! 
                 Finished projects link to their GitHub repositories, 
                 while others are works in progress or explain my 
                 contributions to larger projects. You can find more on my 
                 <a className="projectA" href="https://github.com/Klopez851" target="blank"> Github</a>
             </p>
 
+            {/*Iterated through 'projects' array and generates project cards*/}
             {projects.map((project)=>
                 <ProjectCard
                     key={project.projectTitle}

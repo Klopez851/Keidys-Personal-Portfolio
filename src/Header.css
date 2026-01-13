@@ -1,7 +1,6 @@
-.header-container{
-    background-color: none;
-
+.header-container {
     position: fixed;
+
     right: 0;
     margin-top: -.9rem;
     padding: 0;
@@ -9,83 +8,95 @@
 
     display: flex;
     flex-direction: row;
-    justify-content:flex-end;
+    justify-content: flex-end;
     align-items: flex-start;
 }
 
-.hamburger-menu{
+.hamburger-menu {
     background-color: var(--color-primary);
-    border: none;
-    width: 100vw;
+
     display: flex;
     justify-content: flex-end;
-    padding: 1rem;
+
+    border: none;
     border-radius: 0 0 0 5px;
-    
+    /*top-left, top-right, bottom-right, bottom-left*/
+
+    width: 100vw;
+    padding: 1rem;
 }
 
 /*try to add dynamic font sizing*/
-.nav-mobile-open{
+.nav-mobile-open {
     background-color: var(--color-primary);
+
     font-family: var(--primary-font);
-    font-size:5 ;
+    text-align: center;
+    font-size: 1rem;
+
     display: flex;
     flex-direction: column;
-    justify-content:flex-end;
+    justify-content: flex-end;
     align-items: center;
 }
 
-.nav-mobile-close{
+.nav-mobile-close {
     display: none;
 }
 
 .HeaderA {
     text-decoration: none;
     color: white;
+
     padding: 1rem;
 }
 
-#ipadAndUpNav{
+#ipadAndUpNav {
     display: none;
 }
 
 @media (min-width: 768px) {
-    .header-container{
-        background-color: var(--color-primary);
-
+    .header-container {
         position: sticky;
-        top: 0;
-        padding: 0;
-        margin-top: -.9rem;
+
+        background-color: var(--color-primary);
 
         display: flex;
         flex-direction: row;
-        justify-content:center;
+        justify-content: center;
         align-items: flex-start;
+
+        top: 0;
+        padding: 0;
+        margin-top: -.9rem;
     }
 
-    #ipadAndUpNav{
+    #ipadAndUpNav {
         background-color: var(--color-primary);
+
         font-family: var(--primary-font);
+        font-size: large;
+
         display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
         width: 100vw;
         margin: .5rem;
-        flex-direction:row;
-        justify-content:space-evenly;
-        font-size: large;
     }
 
-    .HeaderA{
+    .HeaderA {
         text-decoration: none;
         color: white;
+
         padding: .5rem;
     }
 
-    .HeaderA:hover{
+    .HeaderA:hover {
         transform: translateY(-3px);
     }
 
-    .hamburger-menu{
+    .hamburger-menu {
         display: none;
     }
 

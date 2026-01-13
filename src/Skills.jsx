@@ -12,6 +12,8 @@ import './Skills.css'
 
 
 function Skills(){
+    //Skill list, update as skills are acquired
+    //{icon:, name:}
     const skillList = [
         {icon:FaJava, name:'Java'},
         {icon:SiSpring, name:'Spring'},
@@ -28,6 +30,7 @@ function Skills(){
         <section id="Skills">
             <h1 className="skillsH1">Skills</h1>        
             <div  className="skillsContainer">
+                {/*Iterates through skill list array and generated icons*/}
                 {skillList.map((skill) => 
                     <IconCard
                     key={skill.name}

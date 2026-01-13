@@ -11,7 +11,6 @@ import ContactMe from './ContactMe.jsx'
 function App() {
 
   return(
-    // required by react to wrap components in an empty div
     <div className='app-container'> 
       <Header/>
       <Intro />
