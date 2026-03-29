@@ -20,6 +20,7 @@ function Skills(){
         {icon:FaHtml5, name:'HTML'},
         {icon:FaCss3Alt, name:'CSS'},
         {icon:IoLogoJavascript, name:'Javascript'},
+        {icon:FaReact, name:'React'},
         {icon:FaPython, name:'Python'},
         {icon:DiMysql, name:'MySQL'},
         {icon:FaGitAlt, name:'Git'},
