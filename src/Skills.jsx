@@ -7,6 +7,7 @@ import { DiMysql } from "react-icons/di";
 import { FaGithub } from "react-icons/fa";
 import { FaGitAlt } from "react-icons/fa6";
 import { SiSpring } from "react-icons/si";
+import { FaReact } from "react-icons/fa";
 import IconCard from "./IconCard.jsx";
 import './Skills.css'
 
