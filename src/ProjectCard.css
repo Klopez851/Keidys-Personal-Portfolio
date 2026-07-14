@@ -7,7 +7,7 @@
     justify-content: center;
     align-items: center;
 
-    width: 20rem;
+    width: fit-content;
     padding-bottom: .5rem;
 
     border: .3rem solid var(--dark);
@@ -33,6 +33,7 @@
     position: relative;
 
     font-family: var(--primary-font);
+    color: var(--color-accent-1);
     font-size: x-large;
     text-align: center;
 
@@ -86,7 +87,7 @@
 
     font-family: var(--secondary-font);
     font-size: medium;
-    color: white;
+    color: var(--color-accent-1);
     text-decoration: underline;
     text-underline-offset: 1px;
 
@@ -108,7 +109,7 @@
     box-shadow: 2px 2px 1px var(--shadow);
     /* bottom, right side, blur, color*/
 }
-
+/*TABLET CONFIGS (768px< - <1064px)*/
 @media (min-width:768px) {
     .projectcard-container {
         background-color: var(--lighter);
@@ -118,10 +119,9 @@
         justify-content: center;
         align-items: center;
 
-        width: 43vw;
-        padding-bottom: .5rem;
+        padding: 0 .5rem .5rem .5rem;
 
-        border: .3rem solid var(--color-accent-1);
+        border: .3rem solid var(--dark);
         /*size, style, color*/
         border-radius: 30px;
 
@@ -146,7 +146,7 @@
         font-family: var(--primary-font);
         font-size: x-large;
         text-align: center;
-        color: white;
+        color: var(--color-accent-1);
 
         margin-bottom: 0;
     }
@@ -162,7 +162,7 @@
     }
 
     .ProjectCardA {
-        color: white;
+        color: var(--color-accent-1);
         text-decoration: none;
     }
 
@@ -190,13 +190,14 @@
     }
 
     .ProjectCardButton {
-        background-color: var(--lighter);
+        background-color: var(--light);
 
         font-family: var(--secondary-font);
         color: white;
+        font-size: medium;
 
         border-radius: 9px;
-        border-color: var(--color-accent-2);
+        border-color: var(--color-accent-1);
 
         box-shadow: 2px 2px 1px var(--shadow);
         /* bottom, right side, blur, color*/

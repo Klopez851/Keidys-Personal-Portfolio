@@ -9,7 +9,7 @@
 .contactMeP {
     font-family: var(--primary-font);
     text-align: center;
-    font-size: large;
+    font-size: calc(.5vw + 1vh + 1vmin);
 }
 
 .contactMeBtnContainer {
@@ -81,14 +81,14 @@
 
 @media (min-width: 768px) {
     .contactMeBtn {
-        background-color: var(--color-accent-2);
+        background-color: var(--light);
 
         font-family: var(--secondary-font);
-        font-size: large;
+        font-size: calc(.5vw + 1vh + 1vmin);
         color: white;
 
-        border-color: var(--color-accent-2);
-        border-radius: .3rem;
+        border-color: var(--color-accent-1);
+        border-radius: 1vw;
 
         margin-bottom: 1.3rem;
         padding: 0 2rem 0 2rem;

@@ -2,15 +2,13 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    /* align-items: flex-start;
-    align-content: flex-start; */
     gap: 2rem;
 }
 
 .projectP {
     font-family: var(--primary-font);
     text-align: center;
-    font-size: medium;
+    font-size: calc(.3vw + 1vh + 1vmin);
 
     width: 90vw;
     padding: 0;
@@ -26,6 +24,7 @@
     background-color: var(--dark);
 
     font-family: var(--primary-font);
+    font-size: calc(2vw + 1vh + 1vmin);
     text-align: center;
     color: var(--lighter);
 
@@ -43,9 +42,9 @@
 .carouselButton {
     background-color: var(--dark);
     color: var(--lighter);
-    font-size: x-large;
+    font-size: calc(1vw + 1vh + 1vmin);;
     
-    border-radius: 2vw 2vw;
+    border-radius: 1vw 1vw;
     padding: .4vw;
 
     cursor: pointer;
