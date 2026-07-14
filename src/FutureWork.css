@@ -3,6 +3,7 @@
     color: var(--lighter);
 
     font-family: var(--primary-font);
+    font-size: calc(1.5vw + 1vh + 1vmin);
     text-align: center;
 }
 
@@ -21,4 +22,5 @@
     flex-flow: row wrap;
     justify-content: center;
     gap: 1.3rem;
+    margin-bottom: 5vh;
 }

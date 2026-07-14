@@ -20,3 +20,32 @@
 
     background-color: var(--dark);
 }
+
+/*DESKTOP CONFIGURATION (<1024px)*/
+
+@media (min-width: 1024px) {
+    .skillsContainer{
+    font-family: var(--secondary-font);
+    
+    font-size: calc(.5vw + .7vh + 1vmin);
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4vw;
+
+    padding: 0 5vw 3vh 5vw;
+
+}
+
+.skillsH1{
+    font-family: var(--primary-font);  
+    color: var(--lighter) ;  
+    font-size: calc(1.5vw + 1vh + 1vmin);
+    text-align: center;  
+
+    background-color: var(--dark);
+}
+    
+}

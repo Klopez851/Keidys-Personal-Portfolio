@@ -98,16 +98,17 @@
 
 @media (min-width:1024px) {
     .contactMeH1 {
-        background-color: var(--shadow);
+        background-color: var(--dark);
 
         font-family: var(--primary-font);
+        font-size: calc(1.5vw + 1vh + 1vmin);
         text-align: center;
     }
 
     .contactMeP {
         font-family: var(--primary-font);
         text-align: center;
-        font-size: large;
+        font-size: calc(.5vw + 1vh + 1vmin);
     }
 
     .contactMeBtnContainer {
@@ -119,14 +120,14 @@
     }
 
     .contactMeBtn {
-        background-color: var(--color-accent-2);
+        background-color: var(--light);
 
         font-family: var(--secondary-font);
-        font-size: large;
+        font-size: calc(.5vw + 1vh + 1vmin);
         color: white;
 
         border-radius: .3rem;
-        border-color: var(--color-accent-2);
+        border-color: var(--color-accent-1);
 
         margin-bottom: 1.3rem;
     }
@@ -160,7 +161,7 @@
     }
 
     .contactMeFormBtn {
-        background-color: var(--color-accent-2);
+        background-color: var(--light);
 
         font-family: var(--primary-font);
         font-size: medium;
@@ -168,7 +169,7 @@
 
         border-radius: .4rem;
         border: solid;
-        border-color: var(--color-accent-2);
+        border-color: var(--color-accent-1);
 
         margin-top: .5rem;
     }

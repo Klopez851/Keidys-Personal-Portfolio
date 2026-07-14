@@ -24,7 +24,7 @@
     background-color: var(--dark);
 
     font-family: var(--primary-font);
-    font-size: calc(2vw + 1vh + 1vmin);
+    font-size: calc(1.5vw + 1vh + 1vmin);
     text-align: center;
     color: var(--lighter);
 
@@ -50,11 +50,17 @@
     cursor: pointer;
 }
 
+.projectCards > *:nth-child(2){
+        display:none;
+    }
+
 .carousel-indicator{
     font-family: var(--primary-font);
     color: var(--dark);
     font-size: small;
 }
+
+/*DESKTOP CONFIGURATION (<1024px)*/
 
 @media (min-width: 1024px) {
     .projects-container {
@@ -62,16 +68,30 @@
         flex-flow: row wrap;
         justify-content: space-evenly;
 
-        padding-bottom: 1rem;
+        padding-bottom: 4vh;
     }
 
     .projectP {
         font-family: var(--primary-font);
-        font-size: large;
+        font-size: calc(.5vw + .8vh + 1vmin);
         text-align: center;
 
         width: 90vw;
         padding: 0;
         margin: 0;
+    }
+
+    .projectCards{
+        display:flex;
+        justify-content:center;
+        gap:2rem;
+    }
+
+    .projectCards > *:nth-child(2){
+        display:block;
+    }
+
+    .carousel-indicator{
+        display: none;
     }
 }

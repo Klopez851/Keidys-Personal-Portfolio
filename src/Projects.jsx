@@ -66,6 +66,7 @@ function Projects() {
     };
 
     const currentProject = projects[currentIndex];
+    const secondProject = projects[(currentIndex + 1) % projects.length];
 
 
 
@@ -87,14 +88,25 @@ function Projects() {
                     <GrFormPrevious />
                 </button>
 
-                <ProjectCard
-                    imglink={currentProject.imageUrl}
-                    imgAlt={currentProject.imageAlt}
-                    projectTitle={currentProject.projectTitle}
-                    projectLink={currentProject.projectLink}
-                    description={currentProject.description}
-                    techs={currentProject.techs}
-                />
+                <div className="projectCards">
+                    <ProjectCard
+                        imglink={currentProject.imageUrl}
+                        imgAlt={currentProject.imageAlt}
+                        projectTitle={currentProject.projectTitle}
+                        projectLink={currentProject.projectLink}
+                        description={currentProject.description}
+                        techs={currentProject.techs}
+                    />
+
+                    <ProjectCard
+                        imglink={secondProject.imageUrl}
+                        imgAlt={secondProject.imageAlt}
+                        projectTitle={secondProject.projectTitle}
+                        projectLink={secondProject.projectLink}
+                        description={secondProject.description}
+                        techs={secondProject.techs}
+                    />
+                </div>
 
                 <button className="carouselButton" onClick={handleNext}>
                     <GrFormNext />

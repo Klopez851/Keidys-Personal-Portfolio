@@ -67,6 +67,8 @@
     }
 }
 
+/*DESKTOP CONFIGURATION (<1024px)*/
+
 @media (min-width: 1024px) {
     .intro-container {
         font-family: var(--secondary-font);
@@ -77,7 +79,7 @@
         align-items: center;
         gap: 4rem;
 
-        margin-top: 7vh;
+        margin-top: 4vh;
     }
 
     .introImgContainer {
@@ -94,7 +96,7 @@
     }
 
     .introP {
-        font-size: x-large;
+        font-size: calc(1vw + 1vh + 1vmin);
         line-height: 6vh;
         width: 50vw;
     }

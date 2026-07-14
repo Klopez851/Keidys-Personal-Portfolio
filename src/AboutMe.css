@@ -16,14 +16,24 @@
 }
 
 @media (min-width:1024px) {
+
+    .aboutMeH1 {
+        background-color: var(--dark);
+        color: var(--lighter);
+        font-size: calc(1.5vw + 1vh + 1vmin);
+        font-family: var(--primary-font);
+        text-align: center;
+    }
+
     .aboutMePContainer {
         position: relative;
 
         font-family: var(--secondary-font);
-        font-size: larger;
+        font-size: calc(.7vw + .8vh + 1vmin);
+        
         text-align: center;
 
-        width: 70vw;
+        width: 80vw;
         margin: auto;
     }
 

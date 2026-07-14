@@ -80,7 +80,9 @@
     font-size: calc(1vw + 1.5vh + 1vmin);
 }
 
-@media (min-width: 1064px) {
+/*DESKTOP CONFIGURATION (<102ss4x)*/
+
+@media (min-width: 1024px) {
     .header-container {
         position: sticky;
 
@@ -121,7 +123,7 @@
         text-decoration: none;
         color: var(--lighter);
         font-weight: 500;
-        font-size: x-large;
+        font-size: calc(1vw + 1vh + 1vmin);
     }
 
     #name-mobile{
@@ -132,8 +134,8 @@
         text-decoration: none;
         color: var(--lighter);
         font-weight: 500;
-        font-size: x-large;
-        padding: 1rem;
+        font-size: calc(.7vw + 1vh + 1vmin);
+        /* padding: 1rem; */
     }
 
     .HeaderA:hover {
