@@ -1,5 +1,5 @@
 .iconCardContainer {
-    background-color: var(--color-background-lighter);
+    background-color: var(--lighter);
 
     text-align: center;
 
@@ -8,10 +8,8 @@
     justify-content: center;
     align-items: center;
     
-    padding: .5em .5em .5em .5em;
-    /*top,right,bottom,left*/
-
-    border-color: var(--color-accent-2);
+    padding: .5em;
+    color: var(--dark);
     border: solid;
     border-radius: .3rem;
     border-width: .1rem;
@@ -23,10 +21,9 @@
 .icon {
     color: var(--color-accent-1);
     font-size: xxx-large;
-
     padding: 0;
 }
 
-.iconCarcP {
+.iconCardP {
     margin: .2em 0 0 0;
 }

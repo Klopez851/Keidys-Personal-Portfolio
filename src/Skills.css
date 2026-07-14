@@ -1,17 +1,18 @@
 .skillsContainer{
-    font-family: var(--secondary-font);    
+    font-family: var(--secondary-font);   
     
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    gap: 2vw;
+    gap: 5vw;
 
 }
 
 .skillsH1{
-    font-family: var(--primary-font);    
+    font-family: var(--primary-font);  
+    color: var(--lighter) ;  
     text-align: center;  
 
-    background-color: var(--shadow);
+    background-color: var(--dark);
 }

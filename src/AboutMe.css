@@ -1,5 +1,6 @@
 .aboutMeH1 {
-    background-color: var(--shadow);
+    background-color: var(--dark);
+    color: var(--lighter);
 
     font-family: var(--primary-font);
     text-align: center;

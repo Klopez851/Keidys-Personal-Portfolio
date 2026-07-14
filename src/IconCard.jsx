@@ -7,7 +7,7 @@ function IconCard({icon: Icon, iconName}){
     return(
         <div className="iconCardContainer">
             <Icon className="icon"/>
-            <p className='iconCarcP'>{iconName}</p>
+            <p className='iconCardP'>{iconName}</p>
         </div>
     );
 };

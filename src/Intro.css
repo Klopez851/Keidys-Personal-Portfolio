@@ -1,9 +1,13 @@
+/*MOBILE CONFIGURATION (<768px)*/
+
 .intro-container {
     font-family: var(--secondary-font);
 
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    margin: 6vh 0 4vh 0;
 
     padding: 3rem 2rem 1rem 2rem;
     /*top,right,bottom,left*/
@@ -18,7 +22,7 @@
 }
 
 .introP {
-    font-size: large;
+    font-size: larger;
     text-align: center;
 
     top: 2rem;
@@ -42,8 +46,8 @@
         align-content: center;
         gap: 1.5rem;
 
-        padding-top: 1rem;
-        margin-bottom: .3rem;
+        margin: 16vh 0 12vh 0;
+
     }
 
     .introImgContainer {
@@ -51,11 +55,14 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
+
+        margin-bottom: 5vh;
     }
 
     .introP {
-        font-size: large;
+        font-size: x-large;
         text-align: left;
+        line-height: 5.5vh;
     }
 }
 
@@ -67,7 +74,9 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        gap: 5rem;
+        gap: 4rem;
+
+        margin-top: 7vh;
     }
 
     .introImgContainer {
@@ -79,12 +88,13 @@
 
     .introImg {
         min-height: 350px;
-        top: 2.5rem;
+        top: 2rem;
         left: 3vw;
     }
 
     .introP {
         font-size: x-large;
+        line-height: 6vh;
         width: 50vw;
     }
 }

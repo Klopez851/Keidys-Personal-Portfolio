@@ -1,12 +1,12 @@
 .footerBtn{
-    background-color: var(--color-accent-2);    
-    
+    background-color: var(--light);
+    border-style: solid;
+    border-color: var(--color-accent-1);
+
     font-family: var(--primary-font);    
     font-size: medium;    
     color: white;
 
-    border: solid;
-    border-color: var(--color-accent-2);
     border-radius: .4rem;  
 
     margin-top: .5rem;
@@ -18,6 +18,5 @@
 
 .footerContainer{
     font-family: var(--primary-font);
-    
     margin-left: .5rem;
 }

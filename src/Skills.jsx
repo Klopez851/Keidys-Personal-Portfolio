@@ -6,8 +6,10 @@ import { FaPython } from "react-icons/fa";
 import { DiMysql } from "react-icons/di";
 import { FaGithub } from "react-icons/fa";
 import { FaGitAlt } from "react-icons/fa6";
-import { SiSpring } from "react-icons/si";
+import { SiSpringboot } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
+import { FaDocker } from "react-icons/fa";
+
 import IconCard from "./IconCard.jsx";
 import './Skills.css'
 
@@ -17,7 +19,7 @@ function Skills(){
     //{icon:, name:}
     const skillList = [
         {icon:FaJava, name:'Java'},
-        {icon:SiSpring, name:'Spring'},
+        {icon:SiSpringboot, name:'Spring Boot'},
         {icon:FaHtml5, name:'HTML'},
         {icon:FaCss3Alt, name:'CSS'},
         {icon:IoLogoJavascript, name:'Javascript'},
@@ -25,12 +27,15 @@ function Skills(){
         {icon:FaPython, name:'Python'},
         {icon:DiMysql, name:'MySQL'},
         {icon:FaGitAlt, name:'Git'},
-        {icon:FaGithub, name:'Github'}
+        {icon:FaGithub, name:'Github'},
+        {icon:FaDocker, name:'Docker'}
         ];
     
     return(
         <section id="Skills">
-            <h1 className="skillsH1">Skills</h1>        
+            
+            <h1 className="skillsH1">Skills</h1>  
+
             <div  className="skillsContainer">
                 {/*Iterates through skill list array and generated icons*/}
                 {skillList.map((skill) => 

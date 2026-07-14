@@ -2,14 +2,15 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    align-items: flex-start;
-    align-content: flex-start;
+    /* align-items: flex-start;
+    align-content: flex-start; */
     gap: 2rem;
 }
 
 .projectP {
     font-family: var(--primary-font);
     text-align: center;
+    font-size: medium;
 
     width: 90vw;
     padding: 0;
@@ -22,13 +23,38 @@
 }
 
 .projectH1 {
-    background-color: var(--shadow);
+    background-color: var(--dark);
 
     font-family: var(--primary-font);
     text-align: center;
+    color: var(--lighter);
 
     margin: 0;
     width: 100vw;
+}
+.carouselContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 100VW;
+}
+
+.carouselButton {
+    background-color: var(--dark);
+    color: var(--lighter);
+    font-size: x-large;
+    
+    border-radius: 2vw 2vw;
+    padding: .4vw;
+
+    cursor: pointer;
+}
+
+.carousel-indicator{
+    font-family: var(--primary-font);
+    color: var(--dark);
+    font-size: small;
 }
 
 @media (min-width: 1024px) {

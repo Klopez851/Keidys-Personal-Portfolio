@@ -25,14 +25,16 @@ Some pointers as to how/why I chose certain measuremnts:
 
 :root {
   /*Highest level, where global variables live*/
-  --color-background: #262c40;
-  --color-background-lighter: #2F354C;
-  --color-primary: #4E4092;
+  --light: #b17b5e;
+  --lighter:#E8D3C5;
+  --dark: #6B705C;
+  --color-background: #DDBEA9;
+  --shadow: #4043379c;
 
-  --shadow: #171b26;
-
-  --color-accent-1: #F9C80E;
-  --color-accent-2: #708D81;
+  /* --color-background-lighter: #E8D3C5; */
+  /* --color-primary: #6B705C; */
+  --color-accent-1: #8e084b; 
+  --color-accent-2: #B7B7A4;
 
   --primary-font: 'Ranade';
   --secondary-font: 'Excon';
@@ -45,7 +47,7 @@ Some pointers as to how/why I chose certain measuremnts:
 }
 
 body, html {
-  color: white;
+  color: black;
 
   padding: 0;
   margin: 0;

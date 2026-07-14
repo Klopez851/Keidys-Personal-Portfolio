@@ -1,34 +1,44 @@
+/*MOBILE & TABLET CONFIGURATIONS (<1064PX)*/
 .header-container {
     position: fixed;
 
     right: 0;
     margin-top: -.9rem;
-    padding: 0;
+
     z-index: 1;
+    width: 100vw;
+    padding: 1rem 0 1rem 0;
 
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: flex-start;
+
+
+    background-color: var(--dark);
 }
 
 .hamburger-menu {
-    background-color: var(--color-primary);
+    background-color: var(--dark);
 
     display: flex;
     justify-content: flex-end;
 
     border: none;
-    border-radius: 0 0 0 5px;
-    /*top-left, top-right, bottom-right, bottom-left*/
+    
+    width: 60vw;
+    padding: 1rem ;
 
-    width: 100vw;
-    padding: 1rem;
+}
+
+#hamburger-menu-icon {
+    font-size: x-large;
+    color: var(--lighter);
 }
 
 /*try to add dynamic font sizing*/
 .nav-mobile-open {
-    background-color: var(--color-primary);
+    background-color: var(--dark);
 
     font-family: var(--primary-font);
     text-align: center;
@@ -45,21 +55,37 @@
 }
 
 .HeaderA {
-    text-decoration: none;
-    color: white;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: large;
+    color: var(--lighter);
 
     padding: 1rem;
 }
 
-#ipadAndUpNav {
+#navContainer {
     display: none;
 }
 
-@media (min-width: 768px) {
+#name-mobile {
+    font-family: var(--primary-font);
+    align-self: center;
+    padding-left: 2vw;
+    
+}
+
+#name-mobile a {
+    text-decoration: none;
+    color: var(--lighter);
+    font-weight: 500;
+    font-size: x-large;
+}
+
+@media (min-width: 1064px) {
     .header-container {
         position: sticky;
 
-        background-color: var(--color-primary);
+        background-color: var(--dark);
 
         display: flex;
         flex-direction: row;
@@ -69,31 +95,50 @@
         top: 0;
         padding: 0;
         margin-top: -.9rem;
+
     }
 
-    #ipadAndUpNav {
-        background-color: var(--color-primary);
+    #navContainer {
+        background-color: var(--dark);
 
         font-family: var(--primary-font);
-        font-size: large;
 
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-between;
 
         width: 100vw;
+        padding: 2.5vh 0;
         margin: .5rem;
+    }
+    
+    #name {
+        flex-direction: row;
+        justify-content: flex-start;
+        padding-left: 1vw;
+    }
+
+    #name a {
+        text-decoration: none;
+        color: var(--lighter);
+        font-weight: 500;
+        font-size: x-large;
+    }
+
+    #name-mobile{
+        display: none;
     }
 
     .HeaderA {
         text-decoration: none;
-        color: white;
-
-        padding: .5rem;
+        color: var(--lighter);
+        font-weight: 500;
+        font-size: x-large;
+        padding: 1rem;
     }
 
     .HeaderA:hover {
-        transform: translateY(-3px);
+        text-decoration: underline;
     }
 
     .hamburger-menu {

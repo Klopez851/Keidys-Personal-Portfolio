@@ -1,5 +1,6 @@
+/*MOBILE CONFIGS (<768px)*/
 .projectcard-container {
-    background-color: var(--color-background-lighter);
+    background-color: var(--lighter);
 
     display: flex;
     flex-direction: column;
@@ -9,7 +10,7 @@
     width: 20rem;
     padding-bottom: .5rem;
 
-    border: .3rem solid var(--color-accent-1);
+    border: .3rem solid var(--dark);
     /*size, style, color*/
     border-radius: 30px;
 
@@ -34,7 +35,6 @@
     font-family: var(--primary-font);
     font-size: x-large;
     text-align: center;
-    color: white;
 
     margin-bottom: 0;
 }
@@ -50,7 +50,7 @@
 }
 
 .ProjectCardA {
-    color: white;
+    color: var(--color-accent-1);
     text-decoration: none;
 }
 
@@ -96,12 +96,13 @@
 }
 
 .ProjectCardButton {
-    background-color: var(--color-background-lighter);
+    background-color: var(--light);
 
     font-family: var(--secondary-font);
     color: white;
+    font-weight: 500;
 
-    border-color: var(--color-accent-2);
+    border-color: var(--color-accent-1);
     border-radius: 9px;
 
     box-shadow: 2px 2px 1px var(--shadow);
@@ -110,7 +111,7 @@
 
 @media (min-width:768px) {
     .projectcard-container {
-        background-color: var(--color-background-lighter);
+        background-color: var(--lighter);
 
         display: flex;
         flex-direction: column;
@@ -189,7 +190,7 @@
     }
 
     .ProjectCardButton {
-        background-color: var(--color-background-lighter);
+        background-color: var(--lighter);
 
         font-family: var(--secondary-font);
         color: white;
@@ -205,7 +206,7 @@
 
 @media (min-width:1024px) {
     .projectcard-container {
-        background-color: var(--color-background-lighter);
+        background-color: var(--lighter);
 
         display: flex;
         flex-direction: column;
@@ -284,7 +285,7 @@
     }
 
     .ProjectCardButton {
-        background-color: var(--color-background-lighter);
+        background-color: var(--lighter);
 
         font-family: var(--secondary-font);
         font-size: medium;
