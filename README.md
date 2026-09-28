@@ -1,16 +1,23 @@
 # Personal Portfolio
 
-Here’s my personal developer portfolio built with React and Vite. It showcases some of the projects I’ve worked on recently.
+Here's my personal developer portfolio, built with React and Vite. It showcases some of the projects I've worked on recently, along with a little bit about me and my development experience.
 
-## Built With
+### Built With
 
-- **React (with Vite)** – for UI
-- **HTML & CSS** – styling and responsive layout
-- **JavaScript** – behavior and data logic
+- React + Vite — UI and development environment
 
-This site uses CSS variables for colors and fonts, and demonstrates responsive navigation and project layout components.
+- HTML & CSS — structure, styling, and responsive layout
 
-# Upcoming changes
-- UI Revamp which includes, but is not limited to:
-  - adding a form for user to email directly from the website
+- JavaScript — behavior and application logic
 
+The site uses CSS variables for colors and fonts and includes responsive navigation and reusable components for displaying my projects.
+
+# Future Improvements
+
+I have plans for a UI revamp, including:
+
+- Adding a contact form so visitors can email me directly from the website
+
+- Improving the overall layout and visual design
+
+- Making additional improvements to the site's responsiveness and user experience
